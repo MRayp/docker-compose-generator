@@ -4,7 +4,7 @@ services:
 
   btcpayserver:
     restart: unless-stopped
-    image: ${BTCPAY_IMAGE:-sallaradmin/epardakht:latestttt}
+    image: ${BTCPAY_IMAGE:-sallaradmin/epardakht:latest}
     expose:
       - "49392"
     environment:
